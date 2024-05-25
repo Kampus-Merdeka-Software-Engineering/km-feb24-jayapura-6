@@ -2,7 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: "poppins", sans-serif;
+    font-family: "Poppins", sans-serif;
 }
 
 body {
@@ -25,7 +25,8 @@ body {
 
 .wrapper {
     width: 430px;
-    background:transparent;
+    background: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(10px);
     color: floralwhite;
     border-radius: 10px;
     padding: 30px 40px;
@@ -49,7 +50,7 @@ body {
     background: transparent;
     border: none;
     outline: none;
-    border: 2px solid rgb(255, 255, 255, .2);
+    border: 2px solid rgba(255, 255, 255, 0.2);
     border-radius: 40px;
     font-size: 16px;
     color: aliceblue;
@@ -97,7 +98,7 @@ body {
     border: none;
     outline: none;
     border-radius: 40px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, .1);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     cursor: pointer;
     font-size: 20px;
     color: #333;
@@ -109,7 +110,7 @@ body {
 .wrapper .register-link {
     font-size: 14.5px;
     text-align: center;
-    margin: 20px 0 15px
+    margin: 20px 0 15px;
 }
 
 .register-link p a {
@@ -121,6 +122,23 @@ body {
 .register-link p a:hover {
     text-decoration: underline;
 }
+
+.wrapper .login-link {
+    font-size: 14.5px;
+    text-align: center;
+    margin: 20px 0 15px;
+}
+
+.login-link p a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+.login-link p a:hover {
+    text-decoration: underline;
+}
+
 
 @media screen and (max-width: 600px) {
     .wrapper {

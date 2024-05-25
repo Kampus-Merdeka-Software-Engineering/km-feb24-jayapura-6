@@ -15,15 +15,15 @@
         <source src="Asset/iklan.mp4" type="video/mp4">
     </video>
     <div class="wrapper">
-        <!-- <form action=""> -->
+        <form id="login-form" onsubmit="login(event)">
             <h1>Login</h1>
             <div class="input-box">
-                <input id="username" type="text" placeholder="Username" required>
+                <input id="login-username" type="text" placeholder="Username" required>
                 <i class='bx bxs-user'></i>
             </div>
 
             <div class="input-box">
-                <input id="password" type="password" placeholder="Password" required>
+                <input id="login-password" type="password" placeholder="Password" required>
                 <i class='bx bxs-lock-alt'></i>
             </div>
 
@@ -31,24 +31,70 @@
                 <label><input type="checkbox">Remember me</label>
                 <a href="#">Forgot password?</a>
             </div>
-            <button type="submit" onclick="login()" class="btn">Login</button>
+            <button type="submit" class="btn">Login</button>
 
             <div class="register-link">
-                <p>Don't have an account? <a href="#">Register</a></p>
+                <p>Don't have an account? <a href="#" onclick="showRegisterForm()">Register</a></p>
             </div>
-        <!-- </form> -->
+        </form>
+
+        <form id="register-form" style="display: none;" onsubmit="register(event)">
+            <h1>Register</h1>
+            <div class="input-box">
+                <input id="register-username" type="text" placeholder="Username" required>
+                <i class='bx bxs-user'></i>
+            </div>
+
+            <div class="input-box">
+                <input id="register-password" type="password" placeholder="Password" required>
+                <i class='bx bxs-lock-alt'></i>
+            </div>
+
+            <button type="submit" class="btn">Register</button>
+
+            <div class="login-link">
+                <p>Already have an account? <a href="#" onclick="showLoginForm()">Login</a></p>
+            </div>
+        </form>
     </div>
     <script>
-        function login(){
-            let username = document.getElementById("username").value
-            let password = document.getElementById("password").value
-            if(username === "admin" && password === "admin"){
-                window.location.href = "../home/home.html"
+        function showRegisterForm() {
+            document.getElementById('login-form').style.display = 'none';
+            document.getElementById('register-form').style.display = 'block';
+        }
+
+        function showLoginForm() {
+            document.getElementById('login-form').style.display = 'block';
+            document.getElementById('register-form').style.display = 'none';
+        }
+
+        function register(event) {
+            event.preventDefault();
+            let username = document.getElementById("register-username").value;
+            let password = document.getElementById("register-password").value;
+
+            if (username && password) {
+                localStorage.setItem('username', username);
+                localStorage.setItem('password', password);
+                alert('Registration successful! You can now login.');
+                showLoginForm();
+            } else {
+                alert('Please fill in both fields.');
             }
-            else {
-                alert("Login Gagal")
+        }
+
+        function login(event) {
+            event.preventDefault();
+            let username = document.getElementById("login-username").value;
+            let password = document.getElementById("login-password").value;
+            let storedUsername = localStorage.getItem('username');
+            let storedPassword = localStorage.getItem('password');
+
+            if (username === storedUsername && password === storedPassword) {
+                window.location.href = "../home/home.html";
+            } else {
+                alert("Login Failed");
             }
-            
         }
     </script>
 </body>
