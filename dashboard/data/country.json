@@ -1,0 +1,61 @@
+[{
+  "Year": "2015",
+  "Country": "Canada",
+  "Total_Revenue_bersih": "580417",
+  "Total_Order_Quantity": "334"
+}, {
+  "Year": "2015",
+  "Country": "France",
+  "Total_Revenue_bersih": "1120558",
+  "Total_Order_Quantity": "759"
+}, {
+  "Year": "2015",
+  "Country": "Germany",
+  "Total_Revenue_bersih": "1159165",
+  "Total_Order_Quantity": "779"
+}, {
+  "Year": "2015",
+  "Country": "United Kingdom",
+  "Total_Revenue_bersih": "1362188",
+  "Total_Order_Quantity": "943"
+}, {
+  "Year": "2015",
+  "Country": "Australia",
+  "Total_Revenue_bersih": "3048274",
+  "Total_Order_Quantity": "1933"
+}, {
+  "Year": "2015",
+  "Country": "United States",
+  "Total_Revenue_bersih": "3255753",
+  "Total_Order_Quantity": "2142"
+}, {
+  "Year": "2016",
+  "Country": "Canada",
+  "Total_Revenue_bersih": "494633",
+  "Total_Order_Quantity": "285"
+}, {
+  "Year": "2016",
+  "Country": "France",
+  "Total_Revenue_bersih": "1021844",
+  "Total_Order_Quantity": "760"
+}, {
+  "Year": "2016",
+  "Country": "Germany",
+  "Total_Revenue_bersih": "1178736",
+  "Total_Order_Quantity": "864"
+}, {
+  "Year": "2016",
+  "Country": "United Kingdom",
+  "Total_Revenue_bersih": "1272215",
+  "Total_Order_Quantity": "876"
+}, {
+  "Year": "2016",
+  "Country": "Australia",
+  "Total_Revenue_bersih": "1754013",
+  "Total_Order_Quantity": "1211"
+}, {
+  "Year": "2016",
+  "Country": "United States",
+  "Total_Revenue_bersih": "2708789",
+  "Total_Order_Quantity": "1741"
+}]
