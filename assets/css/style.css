@@ -247,7 +247,10 @@ body.active { overflow: hidden; }
   gap: 30px;
 }
 
-.card-text { font-size: var(--fs-4); }
+.card-text { 
+  font-size: var(--fs-4); 
+  text-align: justify;
+}
 
 .btn-link {
   display: flex;
@@ -407,7 +410,10 @@ body.active { overflow: hidden; }
   gap: 40px;
 }
 
-.hero .section-text { margin-block: 25px 40px; }
+.hero .section-text { 
+  margin-block: 25px 40px; 
+  text-align: justify;
+}
 
 .hero-banner .w-100 {
   max-width: 70%;
@@ -429,7 +435,10 @@ body.active { overflow: hidden; }
 
 .service { background-color: var(--snow); }
 
-.service .section-text { margin-block-end: 20px; }
+.service .section-text { 
+  text-align: justify;
+  margin-block-end: 20px; 
+}
 
 .service-card {
   background-color: var(--white);
@@ -758,7 +767,10 @@ body.active { overflow: hidden; }
     align-items: flex-start;
   }
 
-  .service .section-text { margin-block: 0; }
+  .service .section-text { 
+    margin-block: 0; 
+    text-align: justify;
+  }
 
 
 
