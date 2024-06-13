@@ -1,0 +1,31 @@
+[{
+    "Year": "2015",
+    "Product_Category": "Bikes",
+    "Total_Order_Quantity": "6890",
+    "Total_Revenue_bersih": "10526355"
+  }, {
+    "Year": "2015",
+    "Product_Category": "Accessories",
+    "Total_Order_Quantity": "50408",
+    "Total_Revenue_bersih": "478372"
+  }, {
+    "Year": "2015",
+    "Product_Category": "Clothing",
+    "Total_Order_Quantity": "56099",
+    "Total_Revenue_bersih": "1937914"
+  }, {
+    "Year": "2016",
+    "Product_Category": "Bikes",
+    "Total_Order_Quantity": "5737",
+    "Total_Revenue_bersih": "8430230"
+  }, {
+    "Year": "2016",
+    "Product_Category": "Clothing",
+    "Total_Order_Quantity": "69344",
+    "Total_Revenue_bersih": "2187004"
+  }, {
+    "Year": "2016",
+    "Product_Category": "Accessories",
+    "Total_Order_Quantity": "70734",
+    "Total_Revenue_bersih": "624595"
+  }]

@@ -1,0 +1,21 @@
+[{
+    "Year": "2015",
+    "Customer_Gender": "M",
+    "Total_Order_Quantity": "3442",
+    "Total_Revenue_bersih": "5198246"
+  }, {
+    "Year": "2015",
+    "Customer_Gender": "F",
+    "Total_Order_Quantity": "3448",
+    "Total_Revenue_bersih": "5328109"
+  }, {
+    "Year": "2016",
+    "Customer_Gender": "F",
+    "Total_Order_Quantity": "2649",
+    "Total_Revenue_bersih": "3946958"
+  }, {
+    "Year": "2016",
+    "Customer_Gender": "M",
+    "Total_Order_Quantity": "3088",
+    "Total_Revenue_bersih": "4483272"
+  }]

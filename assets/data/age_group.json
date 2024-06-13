@@ -1,0 +1,17 @@
+[{
+    "Age_Group": "Seniors (64+)",
+    "Total_Order_Quantity": "30",
+    "Total_Revenue_bersih": "43858"
+  }, {
+    "Age_Group": "Youth (<25)",
+    "Total_Order_Quantity": "1494",
+    "Total_Revenue_bersih": "2231726"
+  }, {
+    "Age_Group": "Young Adults (25-34)",
+    "Total_Order_Quantity": "4895",
+    "Total_Revenue_bersih": "7018788"
+  }, {
+    "Age_Group": "Adults (35-64)",
+    "Total_Order_Quantity": "6208",
+    "Total_Revenue_bersih": "9662213"
+  }]
